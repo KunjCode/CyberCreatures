@@ -35,7 +35,6 @@ def main():
     if "messages" not in st.session_state:
         st.session_state["messages"] = []
 
-    # Display chat history
 
     # Input field for the user
     message = st.text_area("", placeholder="How can we assist you today?")
@@ -61,6 +60,7 @@ def main():
         st.markdown(f"**{name}:** {chat['user']}")
         st.markdown(f"**Bot:** {chat['bot']}")
         st.divider()  # Adds a divider for better readability
+    # Display chat history
     st.subheader("Chat History")
 
 if __name__ == "__main__":
