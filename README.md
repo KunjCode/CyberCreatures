@@ -77,7 +77,6 @@ View the analysis result along with the chat history displayed below the input a
 - .env: File for storing environment variables securely.
 
 ## Demonstration
-https://youtu.be/U3UeG7rihoQ
 
 ## Notes
 Ensure you have a valid LangFlow APP_TOKEN before running the application.
