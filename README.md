@@ -1,6 +1,6 @@
 # Social Media Performance Analysis
 
-A basic analytics module leveraging LangFlow and DataStax to analyze engagement data from mock social media accounts, integrated with a Streamlit-based web application. The application allows users to interact with a LangFlow-generated workflow for analyzing social media performance.
+Develop a basic analytics module utilizing Langflow and DataStax to analyze engagement data from mock social media accounts.
 
 ## Used Tools:
 ● DataStax Astra DB for database operations.
